@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+
+
+
+
+
+
+
+
+
+## DApp
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, 
+a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+
+## my-app 
+This is a Next.js project bootstrapped with create-next-app.
+First, run the development server:
+```bash
+npm run dev 
+(You need to run "npm install" too sometimes )
+```
+## " Whitelisting "
+ Whitelist is a list of registered and approved participants that are given exclusive access to contribute to an initial coin offering
+ (ICO) or a presale.Crypto projects can  open whitelist so that they can collect funds for their project by selling their project’s token t
+ o the whitelisted addresses. And later, after deploying the project to the public…that whitelisted addresses can sell their token at a high
+ price to the public.
+ Whitelisting also allows NFT projects to reward early supporters with guaranteed slots for them to mint an NFT (or multiple NFTs 
+ depending on the whitelisting/project rules).
+
+So this whitelisting is for 
+* Raising fund to initial projects
+* Earning source for the investors (whitelisted addresses )
+
+track down all whitelisted addresses :--->  
+https://rinkeby.etherscan.io/address/0x1009e25C8AfB8531C4300f5959AdeaA72959141c (made for 10 candidates)
+
