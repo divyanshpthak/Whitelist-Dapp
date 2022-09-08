@@ -52,6 +52,7 @@ function App() {
 
   useEffect(() => {  
  checkIfWalletIsConnected();
+ //eslint-disable-next-line
   }, []);
 
 
