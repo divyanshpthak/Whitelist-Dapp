@@ -1,105 +1,46 @@
-<!-- # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+# Whitelist Dapp
 
 
+Whitelist Dapp is a simple decentralized application (dapp) that facilitates user whitelisting using blockchain technology. The project demonstrates a basic version of a dapp focused on user management and utilizes the Rinkeby Test Network as its underlying blockchain.
+
+## Features
+
+- **Blockchain-Powered Whitelisting:** Whitelist Dapp leverages blockchain technology to manage user whitelisting, ensuring secure and transparent user access management.
+
+- **Rinkeby Test Network:** The smart contract for this project has been deployed to the Rinkeby Test Network, allowing for testing and development without using real Ether.
+
+- **User Management:** This version of the dapp supports user registration and whitelisting.
+
+## Getting Started
+
+To interact with Whitelist Dapp, follow these steps:
+
+1. **Connect to the Rinkeby Test Network:** Ensure that you are connected to the Rinkeby Test Network using an Ethereum wallet like MetaMask.
+
+2. **Access the Dapp:** Open the Whitelist Dapp by navigating to [https://whitelist-application.netlify.app](https://whitelist-application.netlify.app).
+
+3. **Register Users:** Use the dapp interface to register users for whitelisting.
+
+4. **Manage Whitelist:** Admins can manage the whitelist and grant access to registered users.
+
+## Technologies Used
+
+- **Blockchain:** Ethereum (Rinkeby Test Network)
+- **Smart Contract Language:** Solidity
+- **Frontend:** React, HTML, CSS, JavaScript
+- **Smart Contract Development:** Hardhat
+- **Ethereum Interaction:** ethers.js
 
 
+## Deployment
 
+The smart contract has been deployed to the Rinkeby Test Network. You can find the contract address and transaction details [here](https://rinkeby.etherscan.io/address/0x1009e25C8AfB8531C4300f5959AdeaA72959141c).
 
+## Contributions
 
+Contributions to enhance the functionality, security, and user experience of Whitelist Dapp are welcome. Feel free to submit issues and pull requests.
 
+## License
 
-
-## DApp
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, 
-a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-## my-app 
-This is a Next.js project bootstrapped with create-next-app.
-First, run the development server:
-```bash
-npm run dev 
-(You need to run "npm install" too sometimes )
-```
-## " Whitelisting "
- Whitelist is a list of registered and approved participants that are given exclusive access to contribute to an initial coin offering
- (ICO) or a presale. Crypto projects can open whitelist so that they can collect funds for their project by selling their project’s token in early to the whitelisted addresses. And later, after deploying the project to the public, the whitelisted addresses can benefit from the presale by selling their tokens at a high
- price.
- Whitelisting also allows NFT projects to reward early supporters with guaranteed slots for them to mint an NFT (or multiple NFTs 
- depending on the whitelisting/project rules).
-
-So this whitelisting helps 
-* Projects raise funds at the early stage.
-* Investors getting project tokens before the public sale.
-
-Track down all the whitelisted addresses from the smart contract used for this project :--->  
-https://rinkeby.etherscan.io/address/0x1009e25C8AfB8531C4300f5959AdeaA72959141c (made for 10 candidates)
+This project is licensed under the [MIT License](LICENSE).
 
